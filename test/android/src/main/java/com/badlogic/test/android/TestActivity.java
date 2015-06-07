@@ -11,9 +11,8 @@ public class TestActivity extends AndroidApplication {
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
-			super.onCreate(savedInstanceState);
-			AndroidApplicationConfiguration config = new AndroidApplicationConfiguration();
-			config.useGL20 = true;
-			initialize(new Test(), config);
+		super.onCreate(savedInstanceState);
+		AndroidApplicationConfiguration config = new AndroidApplicationConfiguration();
+		initialize(new Test(), config);
 	}
 }

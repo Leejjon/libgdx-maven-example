@@ -9,4 +9,7 @@
 	<entry-point class='com.badlogic.test.html.TestHtml'/>
 	<set-configuration-property name="gdx.assetpath" value="assets" />
 	<set-configuration-property name="gdx.assetoutputpath" value="html/target/webapp" />
+	
+	<!-- Remove this when we've upgraded to the newest libgdx -->
+	<set-configuration-property name='xsiframe.failIfScriptTag' value='FALSE'/>
 </module>

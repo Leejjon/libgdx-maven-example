@@ -8,7 +8,6 @@ import com.badlogic.test.core.Test;
 public class TestDesktop {
 	public static void main (String[] args) {
 		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
-		config.useGL20 = true;
 		new LwjglApplication(new Test(), config);
 	}
 }

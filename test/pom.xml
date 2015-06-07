@@ -9,11 +9,11 @@
 	<name>Test Parent</name>
 
 	<properties>
-		<gdx.version>0.9.9</gdx.version>
+		<gdx.version>1.6.2</gdx.version>
 		<android.version>4.1.1.4</android.version>
 		<android.maven.version>3.8.0</android.maven.version>
-		<gwt.version>2.5.1</gwt.version>
-		<gwt.maven.version>2.5.1</gwt.maven.version>
+		<gwt.version>2.6.1</gwt.version>
+		<gwt.maven.version>2.6.1</gwt.maven.version>
 	</properties>
 
 	<repositories>
